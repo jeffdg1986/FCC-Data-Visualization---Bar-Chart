@@ -1,0 +1,29 @@
+svg{
+  background-color: white;
+  border: 2px solid black;
+}
+rect:hover {
+   fill: red;
+ }
+ .tooltip:hover{
+   fill: yellow;
+ }
+ .tooltip.show{
+   display: flex;
+ }
+.tooltip{
+  display: none;
+  background-color: #eaeaea;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  height: 100px;
+  width: 150px;
+  z-index: 100;
+}
+.container{
+position: relative;
+}
+rect{
+  fill: green;
+}
